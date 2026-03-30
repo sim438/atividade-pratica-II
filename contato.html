@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato TechNova</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="titulo" style="color:  rgb(6, 6, 94);">Entre em Contato TechNova</h1>
+            <p class="descricao">Somos uma empresa de tecnologia especializada em soluções digitais, oferecendo serviços como criação de sites, automação e suporte técnico.</p>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+            <label for="servico">Tipo de serviço:</label><br>
+            <select id="servico" name="servico" required>
+                <option value="">Selecione</option>
+                <option value="Automacao">Automação de tarefas</option> 
+                <option value="chatbot">Chatbot</option>
+                <option value="layout">Criação de layout</option>
+            </select><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="20" placeholder="Digite sua mensagem" required></textarea><br><br>
+            <button type="submit" class="botao">Enviar</button>
+         </form>
+        </div>
+    </body>
+</html>

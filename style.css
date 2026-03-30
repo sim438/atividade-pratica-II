@@ -1,0 +1,18 @@
+css
+*{box-sizing: border-box;}
+body{margin: 5;
+padding: 5;}
+.container{width: 30%;
+margin: 50px;
+padding: 20px;
+border: 5px;
+background-color: rgba(54, 54, 218, 0.418);}
+#titulo{text-align: center;
+margin-bottom: 10px;}
+.descricao{text-align: center;
+margin-bottom: 10px;}
+label{margin-top: 10px;}
+input, select, textarea{padding: 10px;
+margin-top: 5px;
+border: 1px;}
+.botao{margin-top: 10px;}
